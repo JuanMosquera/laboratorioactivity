@@ -7,38 +7,68 @@
     android:orientation="vertical">
 
     <!-- TODO: Update blank fragment layout -->
-
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="64dp"
-        android:text="@string/nombreLugar1"
-        android:id="@+id/nombreL" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="152dp"
-        android:text="@string/informacioG"
-        android:id="@+id/nombreL2" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:text="@string/ubicacionL"
-        android:id="@+id/ubicacionL"
-        android:height="80dp"
-        android:layout_weight="0.36" />
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollV">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/temperaturaL"
-        android:id="@+id/temperatura"
-        android:layout_weight="0.21"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="141dp"
-        android:text="@string/lugaresRecomendados"
-        android:id="@+id/lugaresR" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:text="@string/nombreLugar2"
+                    android:id="@+id/nombreL"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
 
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="149dp"
+                    android:text="@string/informacioG2"
+                    android:id="@+id/nombreL2"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:padding="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ubicacionL2"
+                    android:id="@+id/ubicacionL"
+                    android:height="80dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="79dp"
+                    android:text="@string/temperaturaL2"
+                    android:id="@+id/temperatura"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:text="@string/lugaresRecomendados2"
+                    android:id="@+id/lugaresR"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:autoText="false" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
 </LinearLayout>

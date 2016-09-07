@@ -15,11 +15,52 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">...</string>
-    <string name="nombreLugar1">Nombre</string>
-    <string name="informacioG">informacion general</string>
-    <string name="ubicacionL">Ubicación</string>
-    <string name="temperaturaL">Temperatura</string>
-    <string name="lugaresRecomendados">Lugares recomendados</string>
+
+    <string name="nombreLugar2">Nombre: \n Nueva York</string>
+    <string name="informacioG2">Informacion general: \n Nueva York es la ciudad más poblada de los Estados Unidos de América, y
+        la segunda mayor concentración urbana del continente americano, después de la Ciudad de México, tambien se le conoce como la capital del mundo.</string>
+    <string name="ubicacionL2">Ubicación:\n \t los Estados Unidos</string>
+    <string name="temperaturaL2">Temperatura: \n \t 23ºC</string>
+    <string name="lugaresRecomendados2">Lugares recomendados: \n \t -Central Park  \n \t -la Estatua de la Liberta  \n
+        \t -Empire State  \n
+        \t -Puente de Brooklyn  </string>
+
+    <string name="nombreLugar1">Nombre: \n París</string>
+    <string name="informacioG">Informacion general: \n París es la capital de Francia y
+    la segunda ciudad mas poblada de europa con aproximadamente 12 millones de habitantes,
+     es el destino turistico mas importante del mundo con 42 millones de visitantes al año.</string>
+    <string name="ubicacionL">Ubicación:\n \t Francia</string>
+    <string name="temperaturaL">Temperatura: \n \t 22ºC</string>
+    <string name="lugaresRecomendados">Lugares recomendados: \n \t -la Torre Eiffel \n \t -la Catedral de Notre Dame \n
+        \t -la Avenida de los Campos Elíseos \n
+        \t- el Arco de Triunfo </string>
+
+    <string name="nombreLugar3">Nombre: \n Tokio</string>
+    <string name="informacioG3">Informacion general: \n Tokio es la capital de facto de Japón, localizada en el centro-este de la isla, concretamente en la región de Kanto. su nombre
+        significa capital y es la segunda ciudad mas grande del mundo</string>
+    <string name="ubicacionL3">Ubicación:\n \t Japon</string>
+    <string name="temperaturaL3">Temperatura: \n \t 26ºC</string>
+    <string name="lugaresRecomendados3">Lugares recomendados: \n \t -Harajuku \n \t -Santuario Meiji  \n
+        \t -Jardín Nacional Shinjuku Gyoen  \n
+        \t -Odaiba </string>
+
+    <string name="nombreLugar4">Nombre: \n Buenos Aires</string>
+    <string name="informacioG4">Informacion general: \n Buenos Aires es la capital de la República Argentina y el principal núcleo urbano del país</string>
+    <string name="ubicacionL4">Ubicación:\n \t Argentina</string>
+    <string name="temperaturaL4">Temperatura: \n \t 10ºC</string>
+    <string name="lugaresRecomendados4">Lugares recomendados: \n \t -Casa Rosada \n \t -Teatro Colón \n
+        \t -Obelisco de Buenos Aires  \n
+        \t- Belgrano </string>
+
+    <string name="nombreLugar5">Nombre: \n Cartagena de Indias</string>
+    <string name="informacioG5">Informacion general: \nCartagena de Indias, oficialmente Distrito Turístico y Cultural ,
+        es la capital del departamento de Bolívar, Colombia. Fue fundada el 1 de junio de 1533 por Pedro de Heredia</string>
+    <string name="ubicacionL5">Ubicación:\n \t Colombia</string>
+    <string name="temperaturaL5">Temperatura: \n \t 32ºC</string>
+    <string name="lugaresRecomendados5">Lugares recomendados: \n \t -Islas del rosario \n \t -Castillo de San Felipe \n
+        \t -La ciudad amurallada  \n
+        \t- El convento de la popa </string>
+
     <string name="informacionD">informacion</string>
     <string name="encabezadoAcercaD">Acerca de:</string>
 </resources>

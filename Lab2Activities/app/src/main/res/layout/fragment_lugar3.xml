@@ -2,8 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="gr3.compumovil.udea.edu.co.lab2activities.Lugar1"
-    android:weightSum="1"
+    tools:context="gr3.compumovil.udea.edu.co.lab2activities.Lugar3"
     android:orientation="vertical">
 
     <!-- TODO: Update blank fragment layout -->
@@ -26,7 +25,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="64dp"
-                    android:text="@string/nombreLugar1"
+                    android:text="@string/nombreLugar3"
                     android:id="@+id/nombreL"
                     android:textAppearance="?android:attr/textAppearanceMedium"
 
@@ -35,7 +34,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="149dp"
-                    android:text="@string/informacioG"
+                    android:text="@string/informacioG3"
                     android:id="@+id/nombreL2"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:padding="10dp" />
@@ -43,7 +42,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/ubicacionL"
+                    android:text="@string/ubicacionL3"
                     android:id="@+id/ubicacionL"
                     android:height="80dp"
                     android:textAppearance="?android:attr/textAppearanceMedium"
@@ -52,7 +51,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="79dp"
-                    android:text="@string/temperaturaL"
+                    android:text="@string/temperaturaL3"
                     android:id="@+id/temperatura"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     />
@@ -60,7 +59,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="140dp"
-                    android:text="@string/lugaresRecomendados"
+                    android:text="@string/lugaresRecomendados3"
                     android:id="@+id/lugaresR"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:autoText="false" />
@@ -70,6 +69,6 @@
         </ScrollView>
 
 
-    </LinearLayout>
+    </LinearLayout>3
 
 </LinearLayout>
