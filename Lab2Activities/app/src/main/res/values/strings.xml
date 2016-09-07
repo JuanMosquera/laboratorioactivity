@@ -15,4 +15,11 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">...</string>
+    <string name="nombreLugar1">Nombre</string>
+    <string name="informacioG">informacion general</string>
+    <string name="ubicacionL">Ubicación</string>
+    <string name="temperaturaL">Temperatura</string>
+    <string name="lugaresRecomendados">Lugares recomendados</string>
+    <string name="informacionD">informacion</string>
+    <string name="encabezadoAcercaD">Acerca de:</string>
 </resources>

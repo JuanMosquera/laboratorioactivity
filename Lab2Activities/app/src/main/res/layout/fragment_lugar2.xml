@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gr3.compumovil.udea.edu.co.lab2activities.Lugar2"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="@string/nombreLugar1"
+        android:id="@+id/nombreL" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:text="@string/informacioG"
+        android:id="@+id/nombreL2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/ubicacionL"
+        android:id="@+id/ubicacionL"
+        android:height="80dp"
+        android:layout_weight="0.36" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/temperaturaL"
+        android:id="@+id/temperatura"
+        android:layout_weight="0.21"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:text="@string/lugaresRecomendados"
+        android:id="@+id/lugaresR" />
+
+</LinearLayout>

@@ -1,20 +1,25 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="gr3.compumovil.udea.edu.co.lab2activities.AcercaDe">
+    tools:context="gr3.compumovil.udea.edu.co.lab2activities.AcercaDe"
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button2"
-        android:layout_gravity="center" />
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/encabezadoAcercaD"
+        android:id="@+id/inAcerda" />
 
-</FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/informacionD"
+        android:id="@+id/acercaD"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.93" />
+</LinearLayout>
